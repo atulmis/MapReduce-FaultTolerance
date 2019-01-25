@@ -1,0 +1,4 @@
+# MapReduce-FaultTolerance
+compares customised Mapreduce fault tolerance with VMware vSphere fault tolerance
+
+MapReduce is a programing model that operates on large datasets having a repetitive scheme of computations. When working on large datasets, it is essential to have a robust and efficient fault tolerance mechanism. A small glitch in the fault recovery can cost millions to companies using MapReduce solutions for its applications. One major challenge that needs attention is to think of a way to reduce the time of recovery if a failure occurs. Although MapReduce model has its own technique to resolve this issue, I present here another approach to reduce the fault recovery time. This alternate solution is motivated by the VMware fault tolerance mechanism which is based on the approach of replicating the execution of a primary machine to a backup machine.
